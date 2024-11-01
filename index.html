@@ -7,6 +7,14 @@
   </head>
   <body>
     <div id="app"></div>
+
+    <!-- File input for reading JSON -->
+    <input type="file" id="inputFile" accept=".json">
+    <button onclick="readInputFile()">Load Input</button>
+
+    <!-- Button to save output -->
+    <button onclick="saveOutputToFile(yourOutputData)">Save Output</button>
+    
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
